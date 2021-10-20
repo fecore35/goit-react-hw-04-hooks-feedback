@@ -1,0 +1,16 @@
+.list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  text-transform: uppercase;
+}
+.item:not(:last-child) {
+  border-right: 1px solid #000;
+  padding-right: 35px;
+  margin-right: 35px;
+}
